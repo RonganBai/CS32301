@@ -1,17 +1,21 @@
 ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 50px;
+	background-color: white;
 }
 
 li {
-	display: inline;
-	padding: 5px;
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
 }
 
 body {
-	font-family: omnes-pro, sans-serif !important;
-	font-weight: bold;
+	font-family: brevia, sans-serif !important;
+	font-style: normal;
+	font-weight: 400;
 	text-align: center;
 	color: white;
 	background-color: #303030;
