@@ -1,0 +1,43 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+body {
+	font-family: omnes-pro, sans-serif !important;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	background-color: #303030;
+}
+
+a {
+	background-color: white;
+	padding: 15px;
+	color: #303030;
+	border-radius: 5px;
+}
+
+a:hover {
+	background-color: #303030;
+	color: white;
+}
+
+.paragraph-block {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	border-radius: 8px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.vertical-center {
+	padding-top: 15%;
+}
