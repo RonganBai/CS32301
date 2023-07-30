@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li,p{
+    list-style: none;
+}
+
+.Ark{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 128px
+}
+
+.Page{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.菜单{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 60px;
+    position: relative;
+}
+
+.菜单 .菜单标题 a{
+    position: absolute;
+    top:6px;
+    left:50px;
+    width: 96px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.菜单 .上一项 a{
+    position: absolute;
+    top:6px;
+    left:150px;
+    width: 96px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.菜单 .下一项 a{
+    position: absolute;
+    top:6px;
+    left:250px;
+    width: 96px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.游戏介绍{
+    display: flex;
+}
+
+.游戏介绍 .介绍{
+    height: 50px;
+    width: 50px;
+    padding-right: 220px;
+    position: relative;
+}
+
+.游戏介绍 .介绍 a{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    width: 256px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.类型{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 32px; 
+}
+
+.Ark .Arklogo{
+    margin-top: 5%;
+    margin-left: auto;
+}
+
+.职业{
+    margin-left: 5%;
+    margin-top: 26px;
+    margin-right: 650px;
+    color: white;
+    font-size: 32px;
+    
+}
+
+.职业 a{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 3%;
+    right: 50px;
+    
+}
+
+.特殊排版{
+    margin-left: 5%;
+    margin-top: 26px;
+    margin-right: 5%;
+    color: white;
+    font-size: 32px;
+}
+
+.职业 .文字{
+    display: flex;
+    flex-direction: column;
+}
+.特殊排版 h4{
+    margin-top: -200px;
+    text-align: center;
+}
+
+.特殊排版 img{
+    position: relative;
+    left: 50%;
+    margin-top: 200px;
+    transform: translate(-50%,-50%);
+}
+
+
+
+body{
+    background-color: black;
+}
